@@ -9,7 +9,7 @@ module.exports = {
         "jsx": true
   },
   "parserOptions": {
-      "ecmaVersion": 2017,
+      "ecmaVersion": 2020,
       "ecmaFeatures": {
           "experimentalObjectRestSpread": true,
           "experimentalDecorators": true,
@@ -20,9 +20,8 @@ module.exports = {
   "plugins": [
       "react",
   ],
-  "extends": "airbnb",
-  "rules": {
-    "react/jsx-filename-extension": 0,
-    "function-paren-newline": 0
+  "globals": {
+    "test": true,
+    "expect": true,
   }
 };
