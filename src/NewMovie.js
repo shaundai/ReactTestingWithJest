@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MovieForm from './MovieForm';
 
-export default class NewMovie extends Component {
-    render() {
+const NewMovie = () => {
         return (
             <div>
                 <h1 data-testid="page-title">
@@ -11,5 +10,6 @@ export default class NewMovie extends Component {
                 <MovieForm />
             </div>
         )
-    }
 }
+
+export default NewMovie

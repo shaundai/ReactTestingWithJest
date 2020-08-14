@@ -1,16 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class extends Component {
-    render() {
+const MovieForm = () => {
         return (
-            <div>
                 <form data-testid="movie-form">
                     <input type="text" />
                     <button>
                         Submit
                     </button>
                 </form>
-            </div>
         )
-    }
 }
+
+export default MovieForm
