@@ -7,7 +7,7 @@ test('<NewMovie>', () => {
     debug();
 
     expect(getByTestId('page-title').textContent).toBe('New Movie');
-    expect(queryByTestId('movie-form').textContent).toBeTruthy;
+    expect(queryByTestId('movie-form').textContent).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
     console.log(container.firstChild);
 
